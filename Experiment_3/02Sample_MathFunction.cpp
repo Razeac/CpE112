@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+//Created by Mendez, Kenneth Carl Ceazar F.
+int main()
+{
+    double x = 0.25, result;
+    result = asin(x);
+
+    cout << "asin(x) = "  << result <<  " radians" << endl;
+
+    // result in degrees
+    cout << "asin(x) = " << result * 180/3.1415 << " degrees" << endl;
+
+    return 0;
+}

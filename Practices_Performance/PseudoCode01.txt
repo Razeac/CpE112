@@ -1,0 +1,22 @@
+//Kenneth Carl Ceazar F. Mendez
+declare variables
+
+print request for input
+"Enter any character"
+<user enters any character>
+
+<stores the data on varaible ch>
+
+If ch>= 'a' and ch <='z' or ch = 'A' and ch = "Z'
+
+print response
+ch " is Letter."
+
+elseIf ch>='0' and ch<= '9'
+
+print response 
+ch " is Number."
+
+Else
+print response
+ch "is Special Character."
